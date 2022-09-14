@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'Caveman';
+  src: url(../fonts//caveman/CAVEMAN_.TTF);
+}
+
+.container{
+  width: 100vw;
+  height: 100vh;
+  background: no-repeat center/102% url(../images/background.jpeg);
+  font-family: Caveman;
+  font-size: 24pt;
+  color: rgb(74, 74, 74);
+  cursor: url(../images/pointer.png), default;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
