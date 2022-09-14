@@ -27,6 +27,7 @@ const Card = ({ imgSrc }) => {
                         copy.add(imgSrc);
                         return copy;
                     });
+                    console.log(clickedCards);
 				}
 				shuffle();
 			}}
@@ -37,3 +38,4 @@ const Card = ({ imgSrc }) => {
 };
 
 export default Card;
+// wendy, dipper, waddles, gideon, mabel, tobby, robbie, Soos, Stan

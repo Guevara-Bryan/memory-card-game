@@ -23,7 +23,7 @@ function App() {
 	const [score, setScore] = React.useState(0);
 
 	const shuffle = () => {
-		if (clickedCards.length === cards.length){ return; }
+		if (clickedCards.size === cards.length){ return; }
 		const res = [];
 		let i = Math.floor(Math.random() * (cards.length - 0) + 0);
 		while(true){
@@ -32,18 +32,20 @@ function App() {
 				break;
 			}
 			i = (i + 1) % cards.length;
+			console.log(`searching ${i}`);
 		}
 
 		while (res.length < 6){
 			i = (i + 1) % cards.length;
 			res.push(cards[i])
 		}
-
+		console.log([res.length, clickedCards.size]);
 		setGameCards(res);
 	};
 
 	React.useEffect(() => {
 		shuffle();
+		console.log("using");
 	}, []);
 
 	return (
