@@ -9,7 +9,7 @@
   background: no-repeat center/102% url(../images/background.jpeg);
   font-family: Caveman;
   font-size: 24pt;
-  color: rgb(74, 74, 74);
+  color: rgb(0, 0, 0);
   cursor: url(../images/pointer.png), default;
 
   display: flex;
@@ -17,3 +17,31 @@
   align-items: center;
   justify-content: center;
 }
+
+.score-board{
+  display: flex;
+  width: 84%;
+  height: 75px;
+  margin-bottom: 10px;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgba(255,255,255, 0.3);
+    backdrop-filter: blur(10px);
+
+  border-radius: 15px;
+}
+
+.reshuffle-button{
+  background-color: rgba(0,0,0,0.5);
+  height: 50px;
+  width: 100px;
+  border: none;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  cursor: url(../images/pointer.png), default;
+
+  font-size: 16pt;
+  color: white;
+}
+
+

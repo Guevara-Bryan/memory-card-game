@@ -5,37 +5,34 @@ import { GameContext } from "../App";
 
 const Card = ({ imgSrc }) => {
 	const {
-		shuffle,
-		score,
 		setScore,
-		setMaxScore,
+		score,
 		clickedCards,
 		setClickedCards,
+		setGameIsOver,
+		totalCards,
+		setPlayerDidWin,
 	} = React.useContext(GameContext);
 	return (
 		<div
 			className="card"
 			onClick={() => {
 				if (clickedCards.has(imgSrc)) {
-					setMaxScore(score);
-					setScore(0);
-                    setClickedCards(new Set());
+					setGameIsOver(true);
+					setPlayerDidWin(false);
 				} else {
 					setScore((prev) => prev + 1);
-					setClickedCards(prev => {
-                        const copy = new Set(prev);
-                        copy.add(imgSrc);
-                        return copy;
-                    });
-                    console.log(clickedCards);
+					setClickedCards((prev) => {
+						const copy = new Set(prev);
+						copy.add(imgSrc);
+						return copy;
+					});
 				}
-				shuffle();
 			}}
 		>
-			<img className="card-img" src={imgSrc} />
+			<img className="card-img" src={imgSrc} alt="character card" />
 		</div>
 	);
 };
 
 export default Card;
-// wendy, dipper, waddles, gideon, mabel, tobby, robbie, Soos, Stan
