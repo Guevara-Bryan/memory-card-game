@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/memory-card-game/static/css/main.a129c926.css",
+    "main.js": "/memory-card-game/static/js/main.575d5d9b.js",
+    "static/media/soos.png": "/memory-card-game/static/media/soos.91ea362abf973b5a8225.png",
+    "static/media/mabel.png": "/memory-card-game/static/media/mabel.993d0ebd7d8a6ae32361.png",
+    "static/media/gideon.png": "/memory-card-game/static/media/gideon.db2fa783d7dad5f6d7cc.png",
+    "static/media/robbie.png": "/memory-card-game/static/media/robbie.89a986bf3a643362cb0b.png",
+    "static/media/background.jpeg": "/memory-card-game/static/media/background.9a6e3760886d40d81c74.jpeg",
+    "static/media/stan.png": "/memory-card-game/static/media/stan.3bed7713f2ac591360eb.png",
+    "static/media/cypher.png": "/memory-card-game/static/media/cypher.2b6cc06baa38984c65d0.png",
+    "static/media/toby.png": "/memory-card-game/static/media/toby.a36b4d3a21165ca91129.png",
+    "static/media/waddles.png": "/memory-card-game/static/media/waddles.1ca76c443e705b1a6125.png",
+    "static/media/CAVEMAN_.TTF": "/memory-card-game/static/media/CAVEMAN_.9cb04378214dacf9257c.TTF",
+    "static/media/wendy.png": "/memory-card-game/static/media/wendy.3376be8e981e1426facc.png",
+    "static/media/dipper.webp": "/memory-card-game/static/media/dipper.561b36e6cd4a73c1f6ee.webp",
+    "index.html": "/memory-card-game/index.html",
+    "main.a129c926.css.map": "/memory-card-game/static/css/main.a129c926.css.map",
+    "main.575d5d9b.js.map": "/memory-card-game/static/js/main.575d5d9b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a129c926.css",
+    "static/js/main.575d5d9b.js"
+  ]
+}
